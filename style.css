@@ -1,0 +1,97 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: rgb(238, 225, 225);
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh
+}
+
+.main{
+    margin-top: 30px;
+    border: 1px solid white;
+    padding: 50px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 2px 3px 2px 10px rgb(255, 255, 255);
+    border-radius: 10px;
+}
+
+.main h1{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.main input{
+    width: 300px;
+    padding: 9px;
+    border-radius: 8px;
+    border: 1px solid black;
+ 
+}
+
+.main button{
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    height: 39px;
+   
+    color: white;
+    background-color: rgb(67, 67, 199);
+    font-family: inherit;
+}
+
+.celsius{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.icon{
+    height: 110px;
+    width: 120px;
+}
+
+.temp{
+    display: flex;
+    gap: 18px;
+    justify-content: center;
+    align-items: center;
+}
+
+.temp p{
+    
+    padding:20px;
+    margin-top: 20px;
+    background-color: rgb(231, 216, 216);
+    border-radius: 8px;
+}
+
+.celsius p{
+    font-size: 28px;
+    text-transform: capitalize;
+    font-weight: 700;
+}
+
+.search{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ gap: 10px;
+}
+
+.main button:hover{
+    cursor: pointer;
+}
